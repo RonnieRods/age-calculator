@@ -21,10 +21,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout repository
-              uses: actions/checkout@4
+              uses: actions/checkout@v4
 
             - name: Set up Node.js
-              uses: actions/setup-node@4
+              uses: actions/setup-node@v4
               with:
                 node-version: 20
                 cache: 'npm'
@@ -36,7 +36,7 @@ jobs:
               run: npm run build
 
             - name: Setup Pages
-              uses: actions/configure-pages@4
+              uses: actions/configure-pages@v4
 
             - name: Upload production artifacts
               uses: actions/upload-pages-artifact@v3
