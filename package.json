@@ -1,0 +1,24 @@
+{
+  "name": "age-calculator",
+  "version": "1.0.0",
+  "description": "Creating an age calculator using HTML, CSS and JavaScript with use of external packages using npm.",
+  "homepage": "https://github.com/RonnieRods/age-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/RonnieRods/age-calculator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonnieRods/age-calculator.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "js-datepicker": "^5.18.4",
+    "luxon": "^3.7.2"
+  }
+}
