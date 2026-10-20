@@ -15,10 +15,15 @@
   "type": "commonjs",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "js-datepicker": "^5.18.4",
     "luxon": "^3.7.2"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
   }
 }

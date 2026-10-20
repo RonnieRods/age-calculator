@@ -1,3 +1,10 @@
+// Import stylesheets of HTML and js-datepicker
+// for Vite parsing
+import './styles.css';
+import 'js-datepicker/dist/datepicker.min.css';
+
+import datepicker from 'js-datepicker';
+
 // js-datepicker format for #age div
 const picker = datepicker('#age', {
     maxDate: new Date(), // Block out future dates

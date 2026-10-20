@@ -29,6 +29,7 @@
     <!-- Initialize the global file for luxon -->
     <script src="node_modules/luxon/build/global/luxon.js"></script>
 
-    <script src="script.js"></script>
+    <!-- Changed to module type so Vite can parse the npm imports -->
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
