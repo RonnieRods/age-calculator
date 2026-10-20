@@ -1,6 +1,8 @@
 # age-calculator
 Creating an age calculator using HTML, CSS and JavaScript with use of external packages using npm.
 
+The user inputs their birthdate via a <em>JavaScript Datepicker</em>, and the form calculates and displays their exact age, including years, months and days, using <em>Luxon</em>.
+
 Full details of the project is linked here: [Age Calculator](https://roadmap.sh/projects/age-calculator)
 
 # Project Requirements
