@@ -15,4 +15,4 @@ Full details of the project is linked here: [Age Calculator](https://roadmap.sh/
 # Screenshot of completed project
 ![Screenshot of Age Calculator Project](/images/Project_Screenshot.png)
 
-Live demo is here if interested! [Age Calculator Demo](https://ronnierods.github.com/age-calculator/)
+Live demo is here if interested! [Age Calculator Demo](https://ronnierods.github.io/age-calculator/)
