@@ -32,9 +32,6 @@ form.addEventListener('submit', (e) => {
         return;
     }
 
-    // LUXON CALCULATION
-    const DateTime = luxon.DateTime;
-
     // Convert the native JS Date into a Luxon DateTime object
     const birthDate = DateTime.fromJSDate(selectedDate);
     const now = DateTime.now();
